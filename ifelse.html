@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dang nhap</title>
+</head>
+<body>
+<script>
+    let userName = prompt ("nhap ten nguoi dung:");
+    let password = prompt (" nhap mat khau :");
+    if (userName == "admin") {
+        if (password == "TheMaster") {
+            document.write("welcome");
+        }
+        if (password == null) {
+            document.write("canceled");
+        } else if (password != "TheMaster")
+            document.write("i dont know u");
+    }
+    else if ( userName != "admin"){
+        alert("khong hop le");
+        }
+    else if ( userName = null){
+        alert(canceled);
+    }
+
+
+</script>
+
+</body>
+</html>
